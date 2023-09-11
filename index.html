@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Liben Warsame</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/cca4addaee.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/photo1.jpg" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Full Stack Developer</p>
+                <h1>Hi, I'm <span>Liben</span> Warsame</h1>
+            </div>
+        </div>
+    </div>
+    <!-------------------- ABOUT ------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fringilla venenatis nisl, et mollis erat aliquam fringilla. Nam faucibus blandit ullamcorper. Suspendisse nisl leo, efficitur eget turpis eu, ornare ornare ipsum. Sed venenatis lobortis orci, vel sodales ipsum luctus sed. Phasellus quis vehicula turpis. Cras feugiat nunc sit amet arcu scelerisque dignissim. Maecenas ut laoreet lectus, nec convallis diam. Donec ac dolor sapien. Duis pretium ullamcorper odio, in hendrerit massa bibendum quis. Nam condimentum orci est, eu tempus sapien hendrerit a.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>App Development</span><br>Building iOS/Android Apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>September 2020 - February 2023</span><br>Product Zone Specialist at Apple</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>December 2022</span><br>Certificate - University of Minnesota Coding Bootcamp</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------SERVICES-------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-crop-simple" style="color: #fff;"></i>
+                    <h2>UI/UX</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fringilla venenatis nisl, et mollis erat aliquam fringilla. Nam faucibus blandit ullamcorper. Suspendisse nisl leo, efficitur eget turpis eu, ornare ornare ipsum.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code" style="color: #fff;"></i>
+                    <h2>Web Development</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fringilla venenatis nisl, et mollis erat aliquam fringilla. Nam faucibus blandit ullamcorper. Suspendisse nisl leo, efficitur eget turpis eu, ornare ornare ipsum.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store" style="color: #fff;"></i>
+                    <h2>App Development</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fringilla venenatis nisl, et mollis erat aliquam fringilla. Nam faucibus blandit ullamcorper. Suspendisse nisl leo, efficitur eget turpis eu, ornare ornare ipsum.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------PORTFOLIO-------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work1.jpg">
+                    <div class="layer">
+                        <h3>UI/UX</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fringilla venenatis nisl, et mollis erat aliquam fringilla.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work2.jpg">
+                    <div class="layer">
+                        <h3>Web Development</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fringilla venenatis nisl, et mollis erat aliquam fringilla.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+
+                </div>
+                <div class="work">
+                    <img src="images/work3.png">
+                    <div class="layer">
+                        <h3>App Development</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fringilla venenatis nisl, et mollis erat aliquam fringilla.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <script>
+
+        var tablinks = document.getElementsByClassName('tab-links');
+        var tabcontents = document.getElementsByClassName('tab-contents');
+        function opentab(tabname) {
+            for(tablink of tablinks) {
+                tablink.classList.remove('active-link');
+            }
+            for(tabcontent of tabcontents) {
+                tabcontent.classList.remove('active-tab');
+            }
+            event.currentTarget.classList.add('active-link');
+            document.getElementById(tabname).classList.add('active-tab');
+        }
+
+    </script>
+
+</body>
+</html>
