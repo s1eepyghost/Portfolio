@@ -45,6 +45,6 @@ If you have suggestions for how this portfolio can be improved, or if you've ide
 
 ## Contact Information
 
-For inquiries, collaboration opportunities, or just to say hello, you can reach me at [your.email@example.com](mailto:your.email@example.com). Connect with me on [LinkedIn](https://www.linkedin.com/in/yourprofile) for professional networking and updates.
+For inquiries, collaboration opportunities, or just to say hello, you can reach me at [libenwarsame5@gmail.com](mailto:libenwarsame5@gmail.com). Connect with me on [LinkedIn](https://www.linkedin.com/in/libenwarsame/) for professional networking and updates.
 
 Thank you for visiting my portfolio showcase. I hope you find inspiration and insight within these projects. Let's innovate and create together! 🚀
