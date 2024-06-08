@@ -16,18 +16,18 @@ In this repository, I present a diverse array of projects spanning different dom
 
 ## Projects
 
-### Project 1: [Project Name]
+### Project 1: 2048 Clone
 
-- **Description:** A brief description of the project, highlighting its significance and objectives.
-- **Technologies:** List of technologies/languages/frameworks used.
-- **Key Features:** Highlight some key features or functionalities of the project.
+- **Description:** Crafted with a focus on captivating gameplay and user engagement, this 2048 clone offers a modern twist on the classic puzzle game. With sleek visuals, innovative scoring systems, and customizable themes, its objective is to provide players with a challenging yet enjoyable experience, enticing them to test their strategic skills and aim for higher scores.
+- **Technologies:** Using JavaScript as the programming language, styled it with CSS, built the framework with React.js, and used SVG for the visuals 
+- **Key Features:** This 2048 clone boasts responsive design, customizable themes, and an innovative scoring system to engage players. With features like undo move options, persistent storage, and animated transitions, it offers a seamless and enjoyable gaming experience for users across devices. Additionally, accessibility features and social sharing functionality ensure inclusivity and enable players to showcase their achievements.
 - **Demo:** If available, include a link to a live demo or video demonstration.
 
-### Project 2: [Project Name]
+### Project 2: Wordle Clone
 
-- **Description:** Succinctly describe the project, its purpose, and its target audience.
-- **Technologies:** List the technologies employed in the project's development.
-- **Achievements:** Discuss any noteworthy achievements or challenges overcome during the project's development.
+- **Description:** A Wordle clone is a puzzle game where players guess a hidden five-letter word within a limited number of attempts, typically six. Each guess provides feedback with color-coded hints indicating correct letters in the correct positions (green), correct letters in incorrect positions (yellow), and incorrect letters (gray). The purpose of a Wordle clone is to offer engaging and mentally stimulating wordplay, enhancing vocabulary and problem-solving skills through daily challenges. The target audience includes word game enthusiasts, puzzle solvers, and individuals seeking casual, intellectually stimulating entertainment.
+- **Technologies:** Using JavaScript as the programming language, styled it with CSS, built the framework with React.js, and used SVG for the visuals.
+- **Achievements:** Developing a Wordle clone involved achievements such as creating an intuitive user interface, implementing a real-time feedback mechanism, and ensuring cross-device responsiveness. Key challenges included optimizing the word-checking algorithm for speed and accuracy, maintaining user engagement without compromising simplicity, and navigating legal considerations to avoid copyright issues.
 - **GitHub Repository:** Provide a link to the GitHub repository for further exploration.
 
 _(Add more projects as necessary)_
